@@ -13,7 +13,7 @@ Due to the way that deepchem imports the data it requires that you fill in the f
 
 The other option is to edit the parameters when making the model so that you can ignore some of the features in the sample file.
 
-## Tox21 Data
+## Tox21
 At the moment the tox21 data is not easy to change as it is loaded in with the deepchem library on install. However if you have a more complete version of the the tox21 database you can either import the data similarly to what I did, though you will need to add a splitter code.
 
 The other option is to edit the source database for the chemical compounds so that they load in rather than the defaults. They are located in the datasets folder under tox21.csv.gz
